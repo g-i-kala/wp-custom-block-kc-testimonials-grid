@@ -14,7 +14,11 @@ return array(
 			
 		),
 		'supports' => array(
-			'html' => false
+			'html' => false,
+			'align' => array(
+				'wide',
+				'fill'
+			)
 		),
 		'textdomain' => 'kc-testimonials-grid',
 		'editorScript' => 'file:./index.js',

@@ -9,5 +9,10 @@
 .wp-block-create-block-kc-testimonials-grid {
   border: 1px dotted #f00;
 }
+.kc-testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.5rem;
+}
 
 /*# sourceMappingURL=index.css.map*/
